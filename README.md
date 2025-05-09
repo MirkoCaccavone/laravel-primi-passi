@@ -64,3 +64,20 @@ If you discover a security vulnerability within Laravel, please send an e-mail t
 ## License
 
 The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
+
+
+
+
+Svolgimento
+Per prima cosa, creiamo un nuovo progetto Laravel 11, utilizzando questo comando:
+composer create-project --prefer-dist laravel/laravel:^11.0 larave-primi-passi
+
+Al termine dell'installazione, entriamo nella cartella del progetto:
+cd laravel-primi-passi
+
+Avviamo il server con uno di questi due comandi:
+php artisan serve oppure php -S localhost:8000 -t public
+
+A questo punto, iniziamo a prendere confidenza con le rotte e le views: cancelliamo la view welcome.blade.php e creiamo una nostra homepage. Facciamo quindi sì che la rotta / visualizzi home.blade.php.
+
+Inizialmente stampiamo un "Hello World", poi passiamo dei dati alla view in modo da visualizzarli dinamicamente con Blade.
