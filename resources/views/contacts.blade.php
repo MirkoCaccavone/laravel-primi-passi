@@ -11,7 +11,7 @@
 <body>
     @include('partials.header')
 
-    <h1>{{$titolo}}</h1>
+    <h1>{{$contatti}}</h1>
 </body>
 
 </html>

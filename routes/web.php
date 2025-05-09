@@ -11,5 +11,7 @@ Route::get('/about', function () {
 })->name('about');
 
 Route::get('/contacts', function () {
-    return view('contacts', ['titolo' => 'Contattaci']);
+
+    $contatti = 'Contattaci';
+    return view('contacts', compact('contatti'));
 })->name('contacts');
